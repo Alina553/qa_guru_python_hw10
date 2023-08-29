@@ -1,5 +1,4 @@
-import pytest
-from selene import browser, have, by
+from selene import browser, have
 from selene.core.command import js
 from selenium import webdriver
 
