@@ -1,15 +1,5 @@
-from selene import browser, have
-from selene.core.command import js
-from selenium import webdriver
-
 from demoqa_tests.data.users import User
 from demoqa_tests.pages.registration_page import RegistrationPage
-
-browser.config.driver_options = webdriver.ChromeOptions()
-browser.config.driver_options.binary_location = (
-    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-)
-
 
 def test_success_registration_form():
     registration_page = RegistrationPage()
