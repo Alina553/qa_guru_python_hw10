@@ -1,6 +1,5 @@
 from selene import browser, have
 from selene.core.command import js
-from selenium import webdriver
 from demoqa_tests.pages.registration_page import RegistrationPage
 
 
